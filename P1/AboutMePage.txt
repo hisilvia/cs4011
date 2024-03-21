@@ -1,0 +1,66 @@
+Detail:
+Create a zip file of the project. Zip is the only accepted file format. 7zip and other formats that require 3rd party software will not be accepted.
+
+If for whatever reason you cannot create a zip file, please let us know and we will figure it out.
+
+Before you compress your project, remove the node_modules folder!!!!!
+
+
+Requirements:
+
+See the video below for a demo.
+
+Create a multi-page react website using react-router, any of the mentioned component libraries (or regular CSS if you're a CSS wizard), and Storybook.
+
+Must include at least 2 pages
+
+About me
+Hobbies/Pets
+ 
+
+The “About me” page should include a picture and the text from your introduction post.
+
+The picture does not need to be an actual picture of you.
+
+ 
+
+The “hobbies” or “pets” page must use a re-usable react component for each hobby/pet.
+
+The react component should include at least 3 props
+
+Title
+Description
+ImgSrc
+Hobbies/Pets should be stored in a hard-coded array of objects. (See below)
+
+The hobbies/pets components should be rendered from an array of objects using map.
+
+ 
+
+All pages should include a Navigation Bar. This navigation bar will allow the user to navigate to each page.
+
+ 
+
+There should be Storybook stories for the Navigation Bar and the Hobby/Pet component.
+
+ 
+
+Navigation Bar Story
+
+Does not have the provider error discussed in the last lecture video
+ 
+
+Hobby/Pet component Story
+
+The hobby/pet component should have controls at the bottom of the page to manually control the props
+ 
+
+Overall Look
+
+A component library such as Material UI should be used
+OR you can create your own custom CSS for the page if you're good at that
+This is subjective, but it should be evident that effort was put into the look of the page
+You can recreate the look of the demonstration project that I made if you want. But I encourage you to be creative!
+ 
+
+Page should be free of any console errors and warnings. In particular, "Each child in a list should have a unique "key" prop"
